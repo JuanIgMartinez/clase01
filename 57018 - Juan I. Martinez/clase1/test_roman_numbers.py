@@ -1,5 +1,4 @@
 # Juan I. Martinez, Número de legajo 57018
-
 import unittest
 from ronam_numbers import roman_to_decimal
 
@@ -7,6 +6,7 @@ from ronam_numbers import roman_to_decimal
 class TestRomanNumbers(unittest.TestCase):
     def test_roman_I_to_decimal(self):
         decimal_number = roman_to_decimal('I')
+        #import ipdb; ipdb.set_trace()          #instalar la libreria para probar esto
         self.assertEqual(decimal_number, 1)
 
     def test_roman_II_to_decimal(self):

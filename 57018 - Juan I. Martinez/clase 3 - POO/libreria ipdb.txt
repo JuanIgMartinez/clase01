@@ -1,0 +1,26 @@
+sudo pip3 install ipdb para instalar
+
+si ponemos h devuelve esto:
+
+Documented commands (type help <topic>):
+========================================
+EOF    cl         disable  interact  next    psource  rv         unt   
+a      clear      display  j         p       q        s          until 
+alias  commands   down     jump      pdef    quit     source     up    
+args   condition  enable   l         pdoc    r        step       w     
+b      cont       exit     list      pfile   restart  tbreak     whatis
+break  continue   h        ll        pinfo   return   u          where 
+bt     d          help     longlist  pinfo2  retval   unalias  
+c      debug      ignore   n         pp      run      undisplay
+
+Miscellaneous help topics:
+==========================
+exec  pdb
+
+si ponemos c, continua(continue)
+
+si ponemos h y un comando, nos devuelve que hace
+
+l y ll para ver el contexto
+
+todo esto testeado en el archivo de la clase 1

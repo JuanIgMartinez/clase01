@@ -26,8 +26,8 @@ class ComputerAgainstHumanGame(Game):
         self.cota_minina=1
         self.cota_maxima=100
     
-    def input_text(self):#la computadora pienza
+    def input_text(self):#la computadora piensa
         pass
     
-    def play(self,answer):#el humano respomde
+    def play(self,answer):#el humano responde
         pass  

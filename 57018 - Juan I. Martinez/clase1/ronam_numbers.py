@@ -4,10 +4,11 @@
 def roman_to_decimal(roman_number):
     decimal_number = 0
     ant = ''
+    #import ipdb; ipdb.set_trace()          #instalar la libreria para probar esto
     for letter in roman_number:
         if letter == "I":
             decimal_number += 1
-
+    
         elif letter == "V":
             decimal_number += 5
             if ant == 'I':
